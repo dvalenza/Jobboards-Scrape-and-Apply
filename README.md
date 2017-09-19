@@ -1,16 +1,12 @@
-Job Finder  
------------  
   
-Scans listings of craigslist and monster every 30 minutes for jobs matching location and search term, then emails  
+Scans listings of craigslist and monster for jobs matching location and search term, then emails  
 resume to job.  
   
-Creates a log of jobs applied to to prevent emailing same job twice.  
-  
-Have not implemented indeed search, or monster emails.  
+Creates a log of jobs applied to prevent emailing same job twice.  
   
 Usage: python jobfinder.py searchterm  
   
-Example Output:  
+Example Output (only first 4 results):  
   
 [*] Running scanner - Scanning for keyword: entry  
 -----------------------------  
